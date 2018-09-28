@@ -1,27 +1,194 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Cogvi | AI & SpaceScience</title>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Cogvi | AI & SpaceScience</title>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- theme specific-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- theme specific-->
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .margin {
+            margin-bottom: 45px;
+        }
+
+        .bg-1 {
+            background-color: #1abc9c;
+            /* Green */
+            color: #ffffff;
+        }
+
+        .bg-2 {
+            background-color: #474e5d;
+            /* Dark Blue */
+            color: #ffffff;
+        }
+
+        .bg-3 {
+            background-color: #ffffff;
+            /* White */
+            color: #555555;
+        }
+
+        .bg-4 {
+            background-color: #2f2f2f;
+            /* Black Gray */
+            color: #fff;
+        }
+
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+
+        .navbar-nav li a:hover {
+            color: #1abc9c !important;
+        }
+    </style>
+
 </head>
+
 <body>
-<a href="wiki.cogvi.org">
-<h3>Cogviki</h3>
-</a>
 
-<a href="ai.cogvi.org">
-<h3>cogvi's AI</h3>
-</a>
 
-<a href="space.cogvi.org">
-<h3>cogvi's Space</h3>
-</a>
+    <!-- theme specific Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <strong>
+                    <a class="navbar-brand" href="#">Cogvi</a>
+                </strong>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+
+                        <a href="ai.cogvi.org">
+                            <strong>AI</strong>
+                        </a>
+
+                    </li>
+                    <li>
+
+                        <a href="spacescience.cogvi.org">
+                            <strong>Space</strong>
+                        </a>
+
+                    </li>
+                    <li>
+
+                        <a href="wiki.cogvi.org">
+                            <strong>Cogviki</strong>
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Theme specific First Container -->
+    <div class="container-fluid bg-1 text-center">
+        <h3 class="margin">Who we are?</h3>
+        <img src="/home/gautam/Desktop/bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350"
+            height="350">
+        <h3>AI in Space</h3>
+    </div>
+
+    <!-- theme specific Third Container (Grid) -->
+    <div class="container-fluid bg-3 text-center">
+        <h3 class="margin">What we do?</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Artificial Intelligence.</p>
+                <img src="/home/gautam/Desktop/birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <p>Space Science.</p>
+                <img src="/home/gautam/Desktop/birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <p>Check wiki page for more details.</p>
+                <img src="/home/gautam/Desktop/birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div>
+    <!-- theme specific Container (Contact Section) -->
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container">
+        <h3 style="color:black" class="text-center">Contact</h3>
+        <p style="color:black" class="text-center">
+            We believe in team work!
+        </p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <p style="color:black">Want to join us? Drop a note.</p>
+                <p style="color:black">
+                    <span class="glyphicon glyphicon-map-marker"></span>Madanapalle, IN</p>
+                <p style="color:black">
+                    <span class="glyphicon glyphicon-phone"></span>Phone: +91 9491450454</p>
+                <p style="color:black">
+                    <span class="glyphicon glyphicon-envelope"></span>Email: bgautam.0707@gmail.com</p>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 form-group">
+                        <button class="btn pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
+
 </html>
