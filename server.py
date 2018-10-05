@@ -3,10 +3,14 @@ import mimetypes
 import io
 
 class StaticResource(object):
-    def on_get(self, req, resp):
+    def on_get(self, req, resp, filename):
         resp.status = falcon.HTTP_200
         resp.content_type = 'text/html'
-        with open('cogvi_web/index.html', 'r') as f:
+        if filename is "":
+            filename = "index.html"
+        else:
+            filename = filename+'.html'
+        with open('cogvi_web/'+filename, 'r') as f:
             resp.body = f.read()
 
 
@@ -19,5 +23,5 @@ class ServeImages(object):
         resp.stream = io.open(self._image_store+'/'+name,'rb')
 
 app = falcon.API()
-app.add_route('/', StaticResource())
+app.add_route('/{filename}', StaticResource())
 app.add_route('/images/{name}',ServeImages('images'))
