@@ -13,6 +13,14 @@ class StaticResource(object):
         with open('cogvi_web/'+filename, 'r') as f:
             resp.body = f.read()
 
+class StaticAgiResource(object):
+    def on_get(self, req, resp, filename):
+        resp.status = falcon.HTTP_200
+        resp.content_type = 'text/html'
+        filename = filename+'.html'
+        with open('cogvi_web/agi/'+filename, 'r') as f:
+            resp.body = f.read()
+
 
 class ServeImages(object):
     def __init__(self, image_store):
@@ -24,4 +32,5 @@ class ServeImages(object):
 
 app = falcon.API()
 app.add_route('/{filename}', StaticResource())
+app.add_route('/agi/{filename}',StaticAgiResource())
 app.add_route('/images/{name}',ServeImages('images'))
