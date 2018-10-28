@@ -9,8 +9,7 @@ class StaticResource(object):
         if filename is "":
             filename = "index.html"
         else:
-            if 'html' not in filename:
-                filename = filename+'.html'
+            filename = filename+'.html'
         with open('cogvi_web/'+filename, 'r') as f:
             resp.body = f.read()
 
