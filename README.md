@@ -1,1 +1,1 @@
-# cogvi_app
+# cogvi.org
