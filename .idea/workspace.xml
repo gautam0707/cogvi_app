@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a51609-f2e0-4e57-9ddb-7a0833f464b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cogvi_web/agi.html" afterPath="$PROJECT_DIR$/cogvi_web/agi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cogvi_web/contact.html" afterPath="$PROJECT_DIR$/cogvi_web/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cogvi_web/wiki.html" afterPath="$PROJECT_DIR$/cogvi_web/wiki.html" />
-    </list>
+    <list default="true" id="05a51609-f2e0-4e57-9ddb-7a0833f464b0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
