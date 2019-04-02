@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/PycharmProjects/MLModule/.idea/MLModule.iml" filepath="$USER_HOME$/PycharmProjects/MLModule/.idea/MLModule.iml" />
-      <module fileurl="file://$USER_HOME$/cogvi_app/.idea/cogvi_backend.iml" filepath="$USER_HOME$/cogvi_app/.idea/cogvi_backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cogvi_app.iml" filepath="$PROJECT_DIR$/.idea/cogvi_app.iml" />
     </modules>
   </component>
 </project>
