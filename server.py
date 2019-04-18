@@ -28,9 +28,22 @@ class ServeImages(object):
 
     def on_get(self, req, resp, name):
         resp.content_type = mimetypes.guess_type(name)[0]
-        resp.stream = io.open(self._image_store+'/'+name,'rb')
+        resp.stream = io.open(self._image_store+'/'+name, 'rb')
+
+
+class ServeDocuments(object):
+    def __init__(self):
+        pass
+
+    def on_get(self, req, resp, filename):
+        resp.status = falcon.HTTP_200
+        resp.content_type = 'application/pdf'
+        with open('docs/'+filename, 'rb') as f:
+            resp.body = f.read()
+
 
 app = falcon.API()
 app.add_route('/{filename}', StaticResource())
-app.add_route('/agi/{filename}',StaticAgiResource())
-app.add_route('/images/{name}',ServeImages('images'))
+app.add_route('/agi/{filename}', StaticAgiResource())
+app.add_route('/images/{name}', ServeImages('images'))
+app.add_route('/docs/{filename}', ServeDocuments())
