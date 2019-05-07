@@ -45,5 +45,5 @@ class ServeDocuments(object):
 app = falcon.API()
 app.add_route('/{filename}', StaticResource())
 app.add_route('/agi/{filename}', StaticAgiResource())
-app.add_route('/images/{name}', ServeImages('images'))
+# app.add_route('/images/{name}', ServeImages('images'))
 app.add_route('/docs/{filename}', ServeDocuments())
