@@ -286,7 +286,7 @@
                     Generate and Test
                 </li>
                 <li>
-                    Means-Ends analysis
+                    Means-Ends analysis - A heuristic method
                 </li>
                 <li>
                     Problem Reduction
@@ -357,10 +357,69 @@
                 Identifying concepts/ background knowledge from examples(possibly less in number). Abstracting out those concepts/ideas to
                 generalize or keeping constraints to specialize. Use Heuristics to generalize or to specialize.
                 When we have large number of examples, we do statistical learning, but real life gives one example at a time, so, incremental concept learning is key in human cognition.
+                <ul>
+                    <li>
+                        Types of concepts
+                        <ul>
+                            <li>
+                                Axiomatic concepts - more formal and easy to define - example is 'circle'
+                            </li>
+                            <li>
+                                Prototype concepts - example is 'chair'
+                            </li>
+                            <li>
+                                Exemplar concepts - less formal and difficult to define - example is 'beauty'
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
             </ul>
         </li>
+        <li>
+            <h3>Types of problems to solve</h3>
+            <ul>
+                <li>
+                    Classification
+                </li>
+                Classification is central to cognition. Classification tasks are performed to distinguish between many kinds of objects, scenarios and so on using very complicated abstractions.
+                Incremental concept learning is useful in classification.
+            </ul>
+        </li>
+        <li>
+            <h3>Logic</h3>
+            Logic is a formal method to represent world. Formal Logic in AI agents consists of two parts. Knowledge base represented using formal logic and an Inference Engine to reason from the knowledge base.
 
+        Inference Engine must satisfy the following two properties
+        <ul>
+            <li>Soundness</li>
+            Only valid conclusions must be proven.
+            <li>Completeness</li>
+            All valid conclusions must be proven.
+        </ul>
+        Formal logic is 'Deductive' but human intelligence is mostly 'Abductive' and 'Inductive'.
+            <ul>
+                <li>
+                    Deductive - General to specific
+                </li>
+                <li>
+                    Inductive - Specific to General
+                </li>
+                <li>
+                    Abductive - Learning General rules out of limited examples?
+                </li>
+            </ul>
+        </li>
+    <li>
+        <h3>Planning</h3>
+    </li>
+        Planning is central to cognition and a powerful tool for action selection in a state. Problem solving methods such as means ends analysis may cause problems and we will use partial ordering planning and hierarchical task network planning.
 
+        <li>
+            <h3>Understanding in AI systems</h3>
+            We need a way of representing our knowledge about understanding. Thematic role systems is a way similar to Frames in knowledge representation used in this context.
+            In thematic role systems more importance is given to action/verb.
+        </li>
     </ul>
 </div>
 </body>

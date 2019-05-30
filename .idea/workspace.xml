@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5fc07ad-0752-4ee1-a203-579a122f3a35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cogvi_web/images/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogvi_web/images/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogvi_web/images/favicon/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogvi_web/images/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogvi_web/images/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogvi_web/images/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogvi_web/images/favicon/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogvi_web/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogvi_web/research.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cogvi_web/agi.html" beforeDir="false" afterPath="$PROJECT_DIR$/cogvi_web/agi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cogvi_web/agi/agi_documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/cogvi_web/agi/agi_documentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cogvi_web/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/cogvi_web/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cogvi_web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cogvi_web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cogvi_web/spacescience.html" beforeDir="false" afterPath="$PROJECT_DIR$/cogvi_web/spacescience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cogvi_web/wiki.html" beforeDir="false" afterPath="$PROJECT_DIR$/cogvi_web/wiki.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,15 +15,15 @@
     <session id="-1207095676">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="46" />
+          <entry key="project.closed" value="55" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="6" />
-          <entry key="project.open.time.4" value="10" />
-          <entry key="project.open.time.5" value="20" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.opened" value="46" />
+          <entry key="project.open.time.3" value="10" />
+          <entry key="project.open.time.4" value="13" />
+          <entry key="project.open.time.5" value="22" />
+          <entry key="project.open.time.6" value="6" />
+          <entry key="project.opened" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,13 +48,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="8701" />
+          <entry key="html" value="10627" />
           <entry key="py" value="219" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="8701" />
+          <entry key="HTML" value="10627" />
           <entry key="Python" value="219" />
         </counts>
       </usages-collector>
@@ -89,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cogvi_web/agi/agi_documentation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="358" column="185" selection-start-line="358" selection-start-column="185" selection-end-line="358" selection-end-column="185" />
+            <state relative-caret-position="384">
+              <caret line="417" column="12" lean-forward="true" selection-start-line="417" selection-start-column="12" selection-end-line="417" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#ul#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -99,7 +84,6 @@
                 <element signature="n#li#3;n#ul#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#2;n#ul#0;n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -143,7 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,6 +158,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,6 +235,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -263,7 +248,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287483" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49964765" visible="true" weight="0.28674698" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49964765" visible="true" weight="0.25060242" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49964765" weight="0.28674698" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -379,8 +364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cogvi_web/agi/agi_documentation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="358" column="185" selection-start-line="358" selection-start-column="185" selection-end-line="358" selection-end-column="185" />
+        <state relative-caret-position="384">
+          <caret line="417" column="12" lean-forward="true" selection-start-line="417" selection-start-column="12" selection-end-line="417" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#ul#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -389,7 +374,6 @@
             <element signature="n#li#3;n#ul#0;n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#2;n#ul#0;n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
