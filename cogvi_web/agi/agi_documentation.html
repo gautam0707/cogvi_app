@@ -207,7 +207,7 @@
             needed in AGI development
         </li>
         <li>
-            <h4>Computational Cognitive Psychology</h4>
+            <h3>Computational Cognitive Psychology</h3>
             <ul>
                 <li>
 
@@ -268,7 +268,34 @@
                                 Exhibit Inheritance, can be used as object oriented instances
                             </li>
                         </ul>
+                        <li>Scripts</li>
+                        Script is a knowledge representation to capture causally coherent set of events. Scripts are used to represent knowledge as stories/discourses and useful in commonsense reasoning. Scripts help us generate expectations about the world or current scenario.
+                        Scripts are at higher level of abstractions in knowledge representation.Following are parts of scripts.
+                        <ul>
+                            <li>
+                                Entry Conditions - Necessary conditions to execute script.
+                            </li>
+                            <li>
+                                Result - True conditions after the script has executed.
+                            </li>
+                            <li>
+                                Props - Objects involved in script.
+                            </li>
+                            <li>
+                                Roles - Agents involved in script.
+                            </li>
+                            <li>
+                                Track - Variations(other similar script) of script.
+                            </li>
+                            <li>
+                                Scenes - Sequence of events of a script.
+                            </li>
+                        </ul>
+
                     </ul>
+                </li>
+                <li>
+                    Notice that some knowledge representations use other knowledge representations as building blocks.
                 </li>
                 <li>Many symbolic based models are developed to solve this problem of knowledge representation and
                     reasoning. Markov Logic networks and probabilistic soft logic were also tried. Recently deep
@@ -348,10 +375,6 @@
                 </li>
                 Solving one problem using solution of another similar problem
                 <li>
-                    Case based reasoning
-                </li>
-                Solving one problem by changing the solution of another similar problem
-                <li>
                     Incremental Concept Learning
                 </li>
                 Identifying concepts/ background knowledge from examples(possibly less in number). Abstracting out those concepts/ideas to
@@ -374,8 +397,22 @@
                     </li>
 
                 </ul>
+<li>
+        Explanation based learning
+    </li>
+        Instead of learning new concepts, Explanation based learning learns connections among existing concepts. It is useful to transfer knowledge among different scenarios and it is basis for analogical reasoning.
+                Learning abstractions from existing concepts and transferring those abstractions to different situations is key to explanation based learning.
+<li>
+    Version Spaces
+</li>
+                Version spaces are generalized problem solving methods and closely related to explanation based learning. Using positive examples we generalize the specific model of our knowledge and using negative example, we specialize our generalized knowledge.
+                <li>
+                    Learning by correcting mistakes
+                </li>
+                It is central to meta cognition.
             </ul>
-        </li>
+
+           </li>
         <li>
             <h3>Types of problems to solve</h3>
             <ul>
@@ -399,15 +436,17 @@
         </ul>
         Formal logic is 'Deductive' but human intelligence is mostly 'Abductive' and 'Inductive'.
             <ul>
+                Consider a rule: if cause then effect (Rule: A --> B)
                 <li>
-                    Deductive - General to specific
+                    Deductive - given rule and cause then we deduce effect.That is using General rule to apply in a specific instance.
                 </li>
                 <li>
-                    Inductive - Specific to General
+                    Inductive - given cause and effect we induce a rule.That is using Specific observation to generate new general rule.
                 </li>
                 <li>
-                    Abductive - Learning General rules out of limited examples?
+                    Abductive - given rule and effect, we abduce cause.(Learning General rules out of limited examples?)
                 </li>
+                we, humans usually abduce, induce and then deduce in real world. Incorporating this idea in AI is challenging an interesting.
             </ul>
         </li>
     <li>
@@ -421,9 +460,91 @@
             In thematic role systems more importance is given to action/verb.
         </li>
         <li>
-            <h3>Commonsense Reasoning</h3>
-            Using background knowledge and the context of current story we do reason about the world without explicitly doing the work. 'Primitive Actions' are used to represent all kinds of actions so that we narrow down all possible meanings of stories there by making it easy to implement common sense reasoning in AI System.
+            <h3>Reasoning</h3>
         </li>
+        <ul>
+            <li>
+                    Case based reasoning
+                </li>
+                Solving one problem by changing the solution of another similar problem.
+            phases of case based reasoning are..
+            <ul>
+                <li>
+                    Retrieval
+                </li>
+                <li>
+                    Adaptation
+                </li>
+                <li>
+                    Evaluation
+                </li>
+                <li>
+                    Storage
+                </li>
+            </ul>
+        <li>
+            Commonsense Reasoning
+        </li>
+            Using background knowledge and the context of current story we do reason about the world without explicitly doing the work. 'Primitive Actions' are used to represent all kinds of actions so that we narrow down all possible meanings of stories there by making it easy to implement common sense reasoning in AI System.
+
+            <li>
+                Analogical Reasoning
+            </li>
+            Analogical reasoning is similar to case based reasoning, using solutions of similar problems to existing problem. Phases of analogical reasoning are..
+            <ul>
+                <li>
+                    Retrieval
+                </li>
+                <li>
+                    Mapping
+                </li>
+                <li>
+                    Transfer
+                </li>
+                <li>
+                    Evaluation
+                </li>
+                <li>
+                    Storage
+                </li>
+
+            </ul>
+            observe that 'Adaptation' from case based reasoning is divided into 'Mapping' and 'Transfer'(because usually in case based reasoning we deal with problems from same domain), there by trying to apply solutions of even less similar problems to current problem.
+        Different levels of similarity('deep' vs 'superficial' or 'semantic' vs 'pragmatic' vs 'structural') among problem need to be considered in analogy.
+            The concept of Analogical reasoning has several open questions. Following are some topics to consider for research.
+            <ul>
+                <li>Common Vocabulary</li>
+                How we need common vocabulary to transfer knowledge among different domains? if so, how can we do it?
+                <li>Abstraction and Transformation</li>
+                How do we abstract the ideas from one domain and transfer those ideas to another domain?
+                <li>
+                    Compound and Compositional Analogy
+                </li>
+                how can we use ideas or solutions of different problems(not single analogy) to arrive at the solution of new problem? and how do apply analogies at different level of abstractions?
+                <li>Visuospatial analogies</li>
+                <li>Conceptual combination</li>
+            </ul>
+        </ul>
+
+        <li>
+            <h3>Meta Cognition</h3>
+            AI agent should know what it is doing in order to correct its mistakes and be able to change itself to become better and better.
+            meta cognition deals with the ideas of self awareness, self diagnosis and so on.Understanding mistakes in self reasoning system, learning system and knowing gaps in knowledge base are important aspects in meta cognition. We can go to multiple depths in meta cognition like meta-meta cognition, meta-meta-meta cognition and so on but they are all same and doesnt add new capabilities.
+        </li>
+        <li>
+            <h3>
+                Visuospatial Reasoning
+            </h3>
+            Another way of approaching AI is thinking about visuospatial reasoning where we think about what(visual) and where(spatial). Visuospatial knowledge is implicit in analogical reasoning.
+        </li>
+        <li>
+            <h3>
+                Systems thinking
+            </h3>
+            AI system contain many different modules working in a cooperating manner to accomplish complex tasks. Analysing those different modules at different levels of abstraction and at multiple levels is important.
+        </li>
+        <hr/>
+    Considering all these ideas, lets dive in to engineer the intelligence.
     </ul>
 </div>
 </body>
